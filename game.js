@@ -180,7 +180,6 @@ class SpaceGame {
         <h3>${this.formatUpgradeName(type)}</h3>
         <p>${upgrade.description}</p>
         <p>Cost: <span class="cost">${this.formatNumber(upgrade.cost)}</span> stardust</p>
-        <p>You have: <span class="owned">${upgrade.owned}</span></p>
         <p>Produces ${upgrade.cps} stardust per second</p>
       `;
       container.appendChild(div);
